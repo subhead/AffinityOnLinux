@@ -27,7 +27,7 @@ sleep 2
 
 directory="$HOME/.AffinityLinux"
 repo="Twig6943/ElementalWarrior-Wine-binaries" #Owner/Repo
-filename="ElementalWarriorWine.tar.gz" #Filename
+filename="ElementalWarriorWine.zip" #Filename
 
 #Kill wine
 wineserver -k
@@ -60,7 +60,7 @@ wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
 # Extract wine binary
-tar -xvzf "$directory/$filename" -C "$directory"
+unzip "$directory/$filename" -d "$directory"
 
 # Erase the ElementalWarriorWine.tar.gz
 rm "$directory/$filename"
