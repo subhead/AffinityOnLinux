@@ -18,19 +18,19 @@ A repository that helps users get affinity software working on GNU/Linux 🐧
 
 This guide helps you Step by step by hand using Heroic Game launcher or Lutris
 
-[Affinity Photo 🤖](https://github.com/ryzendew/AffinityOnLinux/blob/patch-1/AffinityScripts/AffinityPhoto.sh)
+[Affinity Photo 🤖](https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/refs/heads/main/AffinityScripts/AffinityPhoto.sh)
 
 ```
 bash -c "$(curl -s https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/patch-1/AffinityScripts/AffinityPhoto.sh)"
 ```
 
-[Affinity Designer 🤖](https://github.com/ryzendew/AffinityOnLinux/blob/patch-1/AffinityScripts/AffinityDesigner.sh)
+[Affinity Designer 🤖](https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/refs/heads/main/AffinityScripts/AffinityDesigner.sh)
 
 ```
 bash -c "$(curl -s https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/patch-1/AffinityScripts/AffinityDesigner.sh)"
 ```
 
-[Affinity Publisher 🤖](https://github.com/ryzendew/AffinityOnLinux/blob/patch-1/AffinityScripts/AffinityPublisher.sh)
+[Affinity Publisher 🤖](https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/refs/heads/main/AffinityScripts/AffinityPublisher.sh)
 
 ```
 bash -c "$(curl -s https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/patch-1/AffinityScripts/AffinityPublisher.sh)"
