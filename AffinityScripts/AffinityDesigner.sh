@@ -27,7 +27,7 @@ sleep 2
 
 directory="$HOME/.AffinityLinux"
 repo="Twig6943/ElementalWarrior-Wine-binaries" #Owner/Repo
-filename="ElementalWarriorWine.tar.gz" #Filename
+filename="ElementalWarriorWine.zip" #Filename
 
 #Kill wine
 wineserver -k
@@ -60,7 +60,7 @@ wget https://upload.wikimedia.org/wikipedia/commons/3/3c/Affinity_Designer_2-log
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
 # Extract wine binary
-tar -xvzf "$directory/$filename" -C "$directory"
+unzip "$directory/$filename" -d "$directory"
 
 # Rename wine binary directory
 # mv $directory/Twig6943-ElementalWarrior-Wine-binaries-* $directory/ElementalWarriorWine
