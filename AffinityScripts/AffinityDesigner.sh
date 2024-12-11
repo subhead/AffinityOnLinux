@@ -69,7 +69,7 @@ unzip "$directory/$filename" -d "$directory"
 rm "$directory/$filename"
 
 # WINETRICKS stuff
-WINEPREFIX="$directory" winetricks --unattended dotnet35 dotnet48 corefonts
+WINEPREFIX="$directory" winetricks --unattended dotnet35 dotnet48 corefonts vcrun2022 allfonts
 WINEPREFIX="$directory" winetricks renderer=vulkan
 
 # Extract & delete WinMetadata.zip
