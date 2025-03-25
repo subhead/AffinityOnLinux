@@ -18,7 +18,7 @@ script:
     fsr: false
 
   game:
-    prefix: /run/media/alex/Data/wine/lutris/affinity-photo
+    prefix: /run/media/$USER/Data/wine/lutris/affinity-photo
 
   system:
     env:
